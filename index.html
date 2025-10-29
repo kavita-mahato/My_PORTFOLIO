@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio of Kavita Mahato - Frontend Developer and Full Stack Web Development Enthusiast" />
+    <title>Kavita Mahato • Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <script src="src/script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <div class="container header-inner">
+        <a class="brand" href="#top" aria-label="Kavita Mahato Home">
+          <span class="brand-mark"> KM </span>
+          <span class="brand-text">PORTFOLIO</span>
+        </a>
+
+        <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="primaryNav" aria-label="Toggle navigation">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+
+        <nav class="primary-nav" id="primaryNav">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#activities">Activities</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" aria-label="Introduction">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <h1 class="hero-title">
+              <span class="typing-text" data-text="Hi, I'm Kavita Mahato"></span><span class="cursor">|</span>
+            </h1>
+            <p class="hero-subtitle">Front End Web Developer & IT Student</p>
+            <p class="hero-description">
+              Passionate about developing efficient and scalable web solutions using modern technologies. Currently pursuing B.Tech in Information Technology and enhancing my expertise in DSA, MERN-stack development and problem-solving.
+            </p>
+            <div class="hero-actions">
+              <a class="btn" href="#contact">Get In Touch</a>
+              <a class="btn btn-secondary" href="https://drive.google.com/file/d/1Yrok8AbFRTypBC3na8pc0SyXmA0l7-yI/view?usp=drive_link" target="_blank" rel="noopener">
+                <i class="fas fa-download"></i> Download Resume
+              </a>
+            </div>
+            <div class="socials">
+              <a href="https://www.linkedin.com/in/kavita-mahato" target="_blank" rel="noopener" aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="https://github.com/kavita-mahato" target="_blank" rel="noopener" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="https://leetcode.com/u/kavita-mahato/" target="_blank" rel="noopener" aria-label="LeetCode">
+                <img width="20" height="20" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAACC0lEQVR4nK2VSWsUURDH2307e1JPfgI95iIRN0Q/gN5ExIsXP8GIelAQcZeJdtUoGEKDUzUjJgZN/tU5eMpN8ejBi4gbKu7RljeTzLxZnO5OuuBd+lX/aq8XBDmlVEqWk+AaCz6zxEfz/p8OV9xmtaRxBFOFwZMkWUZiIwtwEvteURsuDM6K6y244ieJHSwQbjdaaWl6f7gwOLmCevCmAXxisTMlYOXS4GpXuuGdBw8vj4+vWRScBZe6YHUWnGLFPVKb879H0fPVuQyw2EUP8Ke736lmu1nwtV10kyiKVmSCk+KCl+u/JPHxfnphdXoHq33xCr8/HS442wGv4cRg/XiI1N6R4s3IfWweDHdhezkPFSdTPQqCwBW5XJ5dlaroOsLL6emgaGHF++Z+sbfd/V1RGya1j4NbtuXcnNtXPQbc+M8rPetj/FwWuD+IvQYEL+cj+FF58GRT5128hdVGWexx2iGxibCKQ70pErvq9f7M3cnJDYtPeB9xXpLgg7/ry/XZ9Wn/hVUc4Br2ZTLSGB5vQl3IUfR03f/03cJr5z0eyhZJLd7ZYUTtEQNre/QU5/11ckdtWyYDjUgUu0jxzVsDE2E0s9HdubSR2E0fHiqOBHmlUo33uGfRfyJJ8aLx2HvrhBXHcsMXhGR6rw/sWt+/lgRvRzK1ldVuseIVi/0msdesGKN6vD0L4B8lAnL0hsXCbAAAAABJRU5ErkJggg==" alt="external-level-up-your-coding-skills-and-quickly-land-a-job-logo-bold-tal-revivo">
+              </a>
+              <a href="https://www.geeksforgeeks.org/user/kavita_mahato/" target="_blank" rel="noopener" aria-label="GeeksforGeeks">
+                <img width="20" height="20" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAD10lEQVR4nO1Y3WtURxS/asRCEQutKFb0QXwpQq1aX0SjT378CUULrfrQqu9K0KVPoU+SSoWtuzM3URTXZs/sJqbRJHvOJhGUFhV88KtE0PbFr6YmoRFitpx7s5uZu9nduYngCvcHAwlz5pzf786ZM2fWcSJEiBAhQoQIEd4OpKICD1flt53J9C4TGTwmFXULoLtS0ROpaFgqfCoU3ZJAwk3T7hhiw2zjxeN/LBRAe9iXVHSbffsx6MlUzG6p8ChzYU5FfjUFSMBXEmi89H+1AXRPZnBXWPJMXCi8bxlj3ONkLcAcIwKo2YXcxrYrVz6Mp3qWuOn8Zgl0Sih8XbQTik7GYoX5tYinUqkFvHZ6Hb4Win4SWfqSfXOMhMJNQuGPAmh0Jk7WAgTgzdbswKpK9ixKAv49bU8XCoXCvEr2LFAovKjZ/yWy+Q2V7BO/9q32U2sWAnh7W9M9Hzs10KroCwk4pq1tquL/hJamYxJwfS3/8Sx+IoEehhIgACdlJrfFsYQA/EFLpYmZviqnhVT4RrOL2frnA+xxCrED3bbOfXKDi818xcvlIuk3/VxxrjshIAGvhtgB+iqM86m15/VtTqr+z0oC23Fd4GydC+0fcJ+1gF/acWXYAALwgHnY8Kjmt8kUh9+E9e929H5aU8Bc4FUkowhQb3FOAOb0OT74Tr3hTKZ3WUDAn8U5AThk7ECqf6lTb5CIH5h5TqOlObPMFlq6uhY59YYYYkPw+i/O6Tc2j7n0T2Ww6kXqeDjvvYBiiRJAncFJ7lv4cDoWmOpbtBTCB8U5/tuoQlX6Kx2yE5dLoEvlxDHLnA3jhBpcEagiE9wdOpZwFX0dWH+yOCcAW/S5ZBr32vqVgB8xF0NAJy6f2VjRSIkA4EvbIH4g6tHWTuq1Ptne97ney3BbEca3UPSP5vvfaoaPplOAnlkHyOY36I2aVNRRZmOkKL5hUY4lpMIXmoChyoZAv2sp8Nz2WSiBrmvkR9x035oyAR201rwP8BqvtYnB2aCdyxuVDRUmZqrj1R4oEjAZyP1vK9lLhQcDRSJh84ozX34Yr2joKtphBADaWsmWGz5umwOV53htMhQLVJWOsoqiIZnONZoFINdYPQBQsybgP29XIL9fQG4nP975C0ugs3o6+F8of6gW+VKMDB42bmfAMaGozfPNMTgW5Pfz7jIHjU9zTef8phVA3/Npt7tMsJ87USck/BcaDVheWMPJNH4XKgB3jBLwiABMe78DKXzsfSlf2B2p8GcJuN2ZI1w/bU+zT8+3t7P42P/tCdt5t+qye40QIUKECBEiRHDePf4H4eBBDFJn/eoAAAAASUVORK5CYII=" alt="GeeksforGeeks">
+              </a>
+              <a href="mailto:kavitamahato0835@gmail.com" aria-label="Email">
+                <i class="fas fa-envelope"></i>
+              </a>
+            </div>
+          </div>
+          <div class="hero-image">
+            <div class="photo-container">
+              <img src="kavita.jpg" alt="Kavita Mahato" class="profile-photo" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section lazy-load" id="about" aria-label="About">
+        <div class="container grid-2">
+          <div class="lazy-load-left">
+            <h2>About Me</h2>
+            <p>
+              First-year B.Tech. student in Information Technology at UCET, VBU. I focus on strong fundamentals, clean code, and practical projects. Currently sharpening Java DSA while building modern, responsive UIs with HTML, CSS, and JavaScript.
+            </p>
+            <div class="about-highlights">
+              <div class="about-stat">
+                <h4>10+ Projects</h4>
+                <p>Hands-on learning through real builds</p>
+              </div>
+              <div class="about-stat">
+                <h4>50+ DSA</h4>
+                <p>Problems solved across platforms</p>
+              </div>
+              <div class="about-stat">
+                <h4>Frontend • Backend</h4>
+                <p>From UI to APIs</p>
+              </div>
+            </div>
+          </div>
+          <div class="highlights lazy-load-right">
+            <div class="card">
+              <h3>Current Focus</h3>
+              <div class="focus-badges" aria-label="Current focus areas">
+                <span class="focus-badge"><i class="fas fa-layer-group"></i> Java DSA</span>
+                <span class="focus-badge"><i class="fas fa-sitemap"></i> Frontend Architecture</span>
+                <span class="focus-badge"><i class="fas fa-server"></i> Backend Development</span>
+                <span class="focus-badge"><i class="fas fa-users"></i> Collaboration</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section lazy-load" id="skills" aria-label="Skills">
+        <div class="container">
+          <h2 class="lazy-load-fade">Skills</h2>
+          <div class="skills-grid">
+            <div class="skill-category lazy-load-scale" style="transition-delay: 0.1s;">
+              <div class="skill-category-header">
+                <div class="skill-category-icon">
+                  <i class="fas fa-laptop-code"></i>
+                </div>
+                <h3>Programming Languages</h3>
+              </div>
+              <div class="skill-pills">
+                <div class="skill-pill">
+                  <img width="20" height="20" src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/24/external-java-is-a-general-purpose-programming-language-that-is-class-based-logo-color-tal-revivo.png" alt="external-java-is-a-general-purpose-programming-language-that-is-class-based-logo-color-tal-revivo"/>
+                  <span>Java</span>
+                </div>
+                <div class="skill-pill">
+                  <img width="20" height="20" src="https://img.icons8.com/color/48/c-programming.png" alt="c-programming"/>
+                  <span>C</span>
+                </div>
+                <div class="skill-pill">
+                  <img width="20" height="20" src="https://img.icons8.com/color/48/c-plus-plus-logo.png" alt="c-plus-plus-logo"/>
+                  <span>C++</span>
+                </div>
+                <div class="skill-pill">
+                  <i class="fab fa-js-square"></i>
+                  <span>JavaScript</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill-category lazy-load-scale" style="transition-delay: 0.2s;">
+              <div class="skill-category-header">
+                <div class="skill-category-icon">
+                  <i class="fas fa-globe"></i>
+                </div>
+                <h3>Frontend</h3>
+              </div>
+              <div class="skill-pills">
+                <div class="skill-pill">
+                  <img width="20" height="20" src="https://img.icons8.com/color/48/html-5--v1.png" alt="html-5--v1"/>
+                  <span>HTML</span>
+                </div>
+                <div class="skill-pill">
+                  <img width="20" height="20" src="https://img.icons8.com/color/48/css3.png" alt="css3"/>
+                  <span>CSS</span>
+                </div>
+                <div class="skill-pill">
+                  <i class="fab fa-js-square"></i>
+                  <span>JavaScript</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill-category lazy-load-scale" style="transition-delay: 0.6s;">
+              <div class="skill-category-header">
+                <div class="skill-category-icon">
+                  <i class="fas fa-server"></i>
+                </div>
+                <h3>Backend</h3>
+              </div>
+              <div class="skill-pills">
+                <div class="skill-pill">
+                  <i class="fab fa-node-js"></i>
+                  <span>Node.js</span>
+                </div>
+                <div class="skill-pill">
+                  <img width="20" height="20" src="https://img.icons8.com/ios/50/express-js.png" alt="express-js"/>
+                  <span>Express.js</span>
+                </div>
+                <div class="skill-pill">
+                  <img width="20" height="20" src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/24/external-mongodb-a-cross-platform-document-oriented-database-program-logo-shadow-tal-revivo.png" alt="external-mongodb-a-cross-platform-document-oriented-database-program-logo-shadow-tal-revivo"/>
+                  <span>MongoDB</span>
+                </div>
+                <div class="skill-pill">
+                  <i class="fas fa-plug"></i>
+                  <span>RESTful APIs</span>
+                </div>
+                <div class="skill-pill">
+                  <i class="fas fa-database"></i>
+                  <span>Mongoose</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill-category lazy-load-scale" style="transition-delay: 0.3s;">
+              <div class="skill-category-header">
+                <div class="skill-category-icon">
+                  <i class="fas fa-tools"></i>
+                </div>
+                <h3>Developer Tools</h3>
+              </div>
+              <div class="skill-pills">
+                <div class="skill-pill">
+                  <i class="fab fa-git-alt"></i>
+                  <span>Git</span>
+                </div>
+                <div class="skill-pill">
+                  <i class="fab fa-github"></i>
+                  <span>GitHub</span>
+                </div>
+                <div class="skill-pill">
+                  <img width="20" height="20" src="https://img.icons8.com/color/48/visual-studio-code-2019.png" alt="visual-studio-code-2019"/>
+                  <span>VS Code</span>
+                </div>
+                <div class="skill-pill">
+                  <img width="20" height="20" src="data:image/png;base64,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" alt="postman-api">
+                  <span>Postman</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill-category lazy-load-scale" style="transition-delay: 0.4s;">
+              <div class="skill-category-header">
+                <div class="skill-category-icon">
+                  <i class="fas fa-trophy"></i>
+                </div>
+                <h3>Coding Platforms</h3>
+              </div>
+              <div class="skill-pills">
+                <div class="skill-pill">
+                  <img width="20" height="20" src="https://img.icons8.com/color/48/GeeksforGeeks.png" alt="GeeksforGeeks"/>
+                  <span>GeeksforGeeks</span>
+                </div>
+                <div class="skill-pill">
+                  <img width="20" height="20" src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/24/external-level-up-your-coding-skills-and-quickly-land-a-job-logo-color-tal-revivo.png" alt="LeetCode"/>
+                  <span>LeetCode</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill-category lazy-load-scale" style="transition-delay: 0.5s;">
+              <div class="skill-category-header">
+                <div class="skill-category-icon">
+                  <i class="fas fa-user-check"></i>
+                </div>
+                <h3>Soft Skills</h3>
+              </div>
+              <div class="skill-pills">
+                <div class="skill-pill">
+                  <i class="fas fa-lightbulb"></i>
+                  <span>Technical Curiosity</span>
+                </div>
+                <div class="skill-pill">
+                  <i class="fas fa-graduation-cap"></i>
+                  <span>Active Self-Learner</span>
+                </div>
+                <div class="skill-pill">
+                  <i class="fas fa-puzzle-piece"></i>
+                  <span>Problem Decomposition</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section lazy-load" id="experience" aria-label="Experience">
+        <div class="container">
+          <h2 class="lazy-load-fade">Experience</h2>
+          <div class="experience-grid">
+            <article class="experience-card lazy-load-scale" style="transition-delay: 0.1s;">
+              <div class="experience-header">
+                <div class="experience-icon">
+                  <i class="fas fa-laptop-code"></i>
+                </div>
+                <div class="experience-title-section">
+                  <h3>Front End Web Development Intern</h3>
+                  <div class="experience-meta">
+                    <span class="company">IBM SkillsBuild & Edunet Foundation</span>
+                    <span class="time">Aug '25 – Sep '25</span>
+                  </div>
+                </div>
+              </div>
+              <div class="experience-description">
+                <ul>
+                  <li><i class="fas fa-mobile-alt"></i> Developed and styled responsive, mobile-first web pages using HTML5 and CSS3, ensuring a consistent and seamless user experience across different browsers.</li>
+                  <li><i class="fab fa-js-square"></i> Implemented dynamic and interactive user interface components using modern JavaScript (ES6+) to enhance user engagement and application functionality.</li>
+                </ul>
+              </div>
+            </article>
+            <article class="experience-card lazy-load-scale" style="transition-delay: 0.2s;">
+              <div class="experience-header">
+                <div class="experience-icon">
+                  <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="experience-title-section">
+                  <h3>Full Stack Web Developer Trainee</h3>
+                  <div class="experience-meta">
+                    <span class="company">iHUB DivyaSampark @ IIT Roorkee</span>
+                    <span class="time">Oct '24</span>
+                  </div>
+                </div>
+              </div>
+              <div class="experience-description">
+                <ul>
+                  <li><i class="fas fa-code"></i> Developed full-stack applications by building responsive front-ends (HTML, CSS, JS) and foundational back-end services.</li>
+                  <li><i class="fab fa-git-alt"></i> Utilized Git and GitHub for version control and collaborative project management.</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section lazy-load" id="projects" aria-label="Projects">
+        <div class="container">
+          <h2 class="lazy-load-fade">Projects</h2>
+          <div class="projects-grid">
+            <article class="project-card lazy-load-scale" style="transition-delay: 0.1s;">
+              <div class="project-header">
+                <div class="project-icon">
+                  <i class="fas fa-tasks"></i>
+                </div>
+                <div class="project-title-section">
+                  <h3>TaskMate</h3>
+                  <div class="project-meta">
+                    <a href="https://kavita-mahato.github.io/Task_Manager/" target="_blank" rel="noopener" class="project-link">
+                      <i class="fas fa-external-link-alt"></i>
+                      Live Demo
+                    </a>
+                    <span class="project-date">Sept '25</span>
+                  </div>
+                </div>
+              </div>
+              <div class="project-description">
+                <ul>
+                  <li><i class="fas fa-check-circle"></i> A dynamic task management application that allows users to add, delete, and mark tasks as complete, with all changes saved locally for data persistence.</li>
+                  <li><i class="fas fa-code"></i> Utilized HTML5 for the core structure, CSS3 for modern styling and layout, and vanilla JavaScript to handle all logic, DOM manipulation, and interaction with local storage.</li>
+                </ul>
+              </div>
+            </article>
+            <article class="project-card lazy-load-scale" style="transition-delay: 0.2s;">
+              <div class="project-header">
+                <div class="project-icon">
+                  <i class="fas fa-university"></i>
+                </div>
+                <div class="project-title-section">
+                  <h3>Bankist App</h3>
+                  <div class="project-meta">
+                    <a href="https://bankistplus.netlify.app/" target="_blank" rel="noopener" class="project-link">
+                      <i class="fas fa-external-link-alt"></i>
+                      Live Demo
+                    </a>
+                    <span class="project-date">June '25</span>
+                  </div>
+                </div>
+              </div>
+              <div class="project-description">
+                <ul>
+                  <li><i class="fas fa-mobile-alt"></i> A simulated online banking application featuring user login, display of transaction history, money transfers, loan requests, and automatic logout timers.</li>
+                  <li><i class="fas fa-laptop-code"></i> The user interface was built with HTML5 and CSS3, while all core functionalities, including array manipulations and dynamic UI updates, were implemented using JavaScript.</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section lazy-load" id="education" aria-label="Education">
+        <div class="container">
+          <h2 class="lazy-load-fade">Education</h2>
+          <div class="education-grid">
+            <article class="education-card lazy-load-scale" style="transition-delay: 0.1s;">
+              <div class="education-header">
+                <div class="education-icon">
+                  <i class="fas fa-university"></i>
+                </div>
+                <div class="education-title-section">
+                  <h3>B.Tech. in Information Technology</h3>
+                  <div class="education-meta">
+                    <a href="#" class="institution" aria-label="Institute">UCET, Vinoba Bhave University</a>
+                    <span class="cgpa">CGPA: 7.83</span>
+                    <span class="time">Sep '24 – Present</span>
+                  </div>
+                </div>
+              </div>
+              <div class="education-description">
+                <p><i class="fas fa-map-marker-alt"></i> University of College of Engineering and Technology, VBU, Hazaribagh</p>
+              </div>
+              <div class="education-highlights">
+                <ul>
+                  <li><i class="fas fa-check"></i> Core focus on data structures, algorithms, and web technologies.</li>
+                  <li><i class="fas fa-check"></i> Built responsive projects using HTML, CSS, and JavaScript.</li>
+                </ul>
+              </div>
+              <div class="tag-list" aria-label="Relevant coursework and tools">
+                <span class="tag"><i class="fas fa-code"></i> DSA</span>
+                <span class="tag"><i class="fab fa-java"></i> Java</span>
+                <span class="tag"><i class="fab fa-html5"></i> HTML5</span>
+                <span class="tag"><i class="fab fa-css3-alt"></i> CSS3</span>
+                <span class="tag"><i class="fab fa-js-square"></i> JavaScript</span>
+                <span class="tag"><i class="fas fa-universal-access"></i> Accessibility</span>
+              </div>
+            </article>
+            <article class="education-card lazy-load-scale" style="transition-delay: 0.2s;">
+              <div class="education-header">
+                <div class="education-icon">
+                  <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="education-title-section">
+                  <h3>12th (Intermediate) – CBSE</h3>
+                  <div class="education-meta">
+                    <a href="#" class="institution" aria-label="School">Jawahar Navodaya Vidyalaya</a>
+                    <span class="percentage">82.2%</span>
+                    <span class="time">2016 – 2023</span>
+                  </div>
+                </div>
+              </div>
+              <div class="education-description">
+                <p><i class="fas fa-map-marker-alt"></i> Jawahar Navodaya Vidyalaya, Purulia, West Bengal</p>
+              </div>
+              <div class="education-highlights">
+                <ul>
+                  <li><i class="fas fa-check"></i> Strong foundation in mathematics and science.</li>
+                  <li><i class="fas fa-check"></i> Participated in leadership and discipline-focused programs (NCC).</li>
+                </ul>
+              </div>
+              <div class="tag-list" aria-label="Subjects">
+                <span class="tag"><i class="fas fa-square-root-alt"></i> Mathematics</span>
+                <span class="tag"><i class="fas fa-atom"></i> Physics</span>
+                <span class="tag"><i class="fas fa-vial"></i> Chemistry</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section lazy-load" id="activities" aria-label="Extracurricular Activities">
+        <div class="container">
+          <h2 class="lazy-load-fade">Extracurricular</h2>
+          <div class="activities-grid">
+            <article class="activity-card lazy-load-scale" style="transition-delay: 0.1s;">
+              <div class="activity-header">
+                <div class="activity-icon-box">
+                  <i class="fas fa-hands-helping"></i>
+                </div>
+                <div class="activity-title-section">
+                  <h3>NSS Volunteer</h3>
+                  <div class="activity-meta">
+                    <a href="https://nss.gov.in/" class="org" aria-label="Org link">
+                      <i class="fas fa-external-link-alt"></i>
+                      National Service Scheme
+                    </a>
+                    <span class="status present">Present</span>
+                  </div>
+                </div>
+              </div>
+              <div class="activity-description">
+                <p><i class="fas fa-heart"></i> Contributing to cleanliness drives, awareness campaigns, and volunteering for social causes.</p>
+              </div>
+              <div class="tag-list" aria-label="Skills built">
+                <span class="tag"><i class="fas fa-people-carry"></i> Teamwork</span>
+                <span class="tag"><i class="fas fa-comments"></i> Communication</span>
+                <span class="tag"><i class="fas fa-hands"></i> Community Impact</span>
+              </div>
+            </article>
+            <article class="activity-card lazy-load-scale" style="transition-delay: 0.2s;">
+              <div class="activity-header">
+                <div class="activity-icon-box">
+                  <i class="fas fa-medal"></i>
+                </div>
+                <div class="activity-title-section">
+                  <h3>NCC Cadet — 'A' Certificate Holder</h3>
+                  <div class="activity-meta">
+                    <a href="https://nccindia.gov.in/" class="org" aria-label="Org link">
+                      <i class="fas fa-external-link-alt"></i>
+                      National Cadet Corps
+                    </a>
+                    <span class="time">2018 – 2020</span>
+                  </div>
+                </div>
+              </div>
+              <div class="activity-description">
+                <p><i class="fas fa-users"></i> Participated in training camps, drills, and leadership activities. Built discipline, teamwork, and resilience.</p>
+              </div>
+              <div class="tag-list" aria-label="Focus areas">
+                <span class="tag"><i class="fas fa-user-shield"></i> Discipline</span>
+                <span class="tag"><i class="fas fa-users-cog"></i> Leadership</span>
+                <span class="tag"><i class="fas fa-running"></i> Physical Fitness</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section lazy-load" id="contact" aria-label="Contact">
+        <div class="container">
+          <h2 class="lazy-load-fade">Get In Touch</h2>
+          <div class="contact-card contact-content lazy-load-scale">
+            <p class="contact-note">I'm always open to discussing new opportunities, collaborations, or just having a chat about technology and development!</p>
+            <div class="contact-actions">
+              <a class="btn" href="mailto:kavitamahato0835@gmail.com">
+                <i class="fas fa-envelope"></i>
+                Email Me
+              </a>
+              <a class="btn btn-secondary" href="https://www.linkedin.com/in/kavita-mahato" target="_blank" rel="noopener">
+                <i class="fa-brands fa-linkedin"></i>
+                LinkedIn
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+</main>
+
+<footer class="site-footer">
+    <div class="container footer-inner">
+        <p>&copy; <span id="year">2025</span> Kavita Mahato. All rights reserved.</p>
+        <p>Built with passion and modern web technologies.</p>
+        <a class="back-to-top" href="#top" aria-label="Back to top">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"/>
+            </svg>
+            Back to top
+        </a>
+    </div>
+</footer>
+
+</body>
+</html>
