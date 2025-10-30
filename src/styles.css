@@ -948,8 +948,8 @@ h3 {
 
 .activity-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 8px 24px rgba(34, 211, 238, 0.15);
-  border-color: var(--brand-2);
+  box-shadow: 0 8px 24px rgba(79, 70, 229, 0.15);
+  border-color: var(--brand);
 }
 
 .activity-header {
@@ -1062,8 +1062,8 @@ h3 {
 
 .contact-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 8px 24px rgba(34, 211, 238, 0.15);
-  border-color: var(--brand-2);
+  box-shadow: 0 8px 24px rgba(79, 70, 229, 0.15);
+  border-color: var(--brand);
 }
 
 .contact-note {
